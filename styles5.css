@@ -1,0 +1,324 @@
+/* RESPONSIVE SOCIAL MEDIA WEBSITE */
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* small screen */
+@media(max-width:990px){
+    .icons-sec{
+        display: flex;
+        gap: 11px;
+        font-size: 24px;
+    
+    }
+
+    .icons-sec1{
+        gap: 11px;
+        font-size: 24px;
+    
+    }
+    
+.container{
+    
+    margin: 20px auto;
+    /* height: 100vh;
+    background-color: blueviolet; */
+}
+/* .feeds{ */
+    /* width: 500px; */
+    /* margin-top: -30px; */
+    /* height: 100vh;
+    background-color: orangered; */
+/* } */
+
+.sidebar{
+    /* width: 400px; */
+   /* margin-top: -24px; */
+    /* height: 100vh;
+    background-color: royalblue; */
+    text-align: center;
+}
+
+.feed{
+    border: 1px solid lightgrey;
+    padding: 8px;
+    border-radius: 14px;
+    margin: 10px;
+}
+
+.feed-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.profile{
+    display: flex;
+    gap: 7px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.user{
+    height:45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name{
+    margin: 0;
+}
+
+.username
+{
+    margin: 0;
+    color: rgb(81, 79, 79);
+    font: 14px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar{
+    
+    margin: 20px auto;
+    padding: 16px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    margin-top: 5px;
+height: 35px;
+}
+
+.btn
+{
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  padding: 15px 30px;
+  font-size: 16px;
+
+ }
+
+ .story-container
+ {
+    /* width: 990px; */
+    overflow: scroll;
+    display: flex;
+    gap: 8px;
+    margin:0 auto;
+    width: 100%;
+
+ }
+
+ .story-container::-webkit-scrollbar    {
+  display: none;
+
+ }
+
+ .story{
+height: 50px;
+width: 50px;
+border: 3px solid rgb(244, 93, 143);
+border-radius: 50%;
+object-fit: cover;
+}
+
+.story-name{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.app{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   justify-content: center;
+   
+}
+
+.app img{
+    height: 40px;
+    justify-content: left;
+    margin-left: -12px;
+    
+ }
+.apple{
+    height: 60px;
+    width: 178px;
+    object-fit: cover;
+    padding: 0;
+}
+
+
+.google{
+    height: 85px;
+    width: 180px;
+    object-fit: cover;
+   
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+}
+
+
+
+/* big screen   */
+
+@media(min-width:990px){
+
+    
+.container{
+    width: 990px;
+    margin: 50px auto;
+    /* height: 100vh;
+    background-color: blueviolet; */
+    display: flex;
+    gap: 40px;
+}
+.feeds{
+    width: 500px;
+    margin-top: -30px;
+    /* height: 100vh;
+    background-color: orangered; */
+}
+
+.sidebar{
+    width: 400px;
+   margin-top: -24px;
+    /* height: 100vh;
+    background-color: royalblue; */
+}
+
+.feed{
+    border: 1px solid lightgrey;
+    padding: 8px;
+    border-radius: 14px;
+    margin: 10px;
+}
+
+.feed-img{
+    width: 100%;
+    border-radius: 14px;
+}
+
+.profile{
+    display: flex;
+    gap: 7px;
+    margin-bottom: 24px;
+    align-items: center;
+}
+.user{
+    height:45px;
+    width: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.name{
+    margin: 0;
+}
+
+.username
+{
+    margin: 0;
+    color: rgb(81, 79, 79);
+    font: 14px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar{
+    width: 990px;
+    margin: 20px auto;
+    padding: 16px 0;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    margin-top: 5px;
+height: 35px;
+}
+
+.btn
+{
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  padding: 15px 30px;
+  font-size: 16px;
+
+ }
+
+ .story-container
+ {
+    display: flex;
+    margin: 0 auto;
+    gap: 20px;
+    width: 990px;
+}
+
+ .story{
+height: 60px;
+width: 60px;
+border: 3px solid rgb(244, 93, 143);
+border-radius: 50%;
+object-fit: cover;
+}
+
+.story-name{
+    text-align: center;
+    margin-top: 0px;
+    font-size: 14px;
+}
+
+.app{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   
+}
+
+.app img{
+    height: 40px;
+    justify-content: left;
+    margin-left: -12px;
+    
+ }
+.apple{
+    height: 60px;
+    width: 178px;
+    object-fit: cover;
+    padding: 0;
+}
+
+
+.google{
+    height: 85px;
+    width: 180px;
+    object-fit: cover;
+   
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+}
